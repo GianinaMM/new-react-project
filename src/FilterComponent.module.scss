@@ -1,0 +1,35 @@
+.filterComponent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    .table {
+        border-radius: 20px;
+        margin-left: 20px;
+        border: 2px solid forestgreen;
+        width: 800px;
+        height: 80px;
+        background-color: rgb(216, 237, 230);
+
+        .container {
+
+            .th {
+                border-right: 1px solid rgb(81, 141, 120);
+    
+            }
+
+            .input {
+                border-radius: 20px;
+                width:150px;
+                height: 30px;
+                position: relative;
+                left: 90px;
+            }
+        }
+    }
+   
+}
+
+
